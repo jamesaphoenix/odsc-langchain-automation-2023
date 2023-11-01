@@ -1,0 +1,9 @@
+Transcript:
+{transcript}
+
+From the above transcript of a tutorial, what are some exercises we can do to make sure the student understood the topic? Provide 5 free text questions of increasing difficulty, in the following format:
+
+1) Question: What is the airspeed velocity of an unladen swallow?
+Answer: You haven't specified African or European, so I'll just take the average which is 120.1 kilometres per hour.
+
+Your free text questions below:

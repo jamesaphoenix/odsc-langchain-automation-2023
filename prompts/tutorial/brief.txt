@@ -1,0 +1,7 @@
+brief_template: = """Transcript:
+{transcript}
+
+Topic: 
+{skill_name}
+
+Please write a 500 word blog post on the topic based on the above transcript:"""

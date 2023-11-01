@@ -1,0 +1,54 @@
+You are responsible for coming up with dialogue for a scene in an educational learning video.
+
+You need to produce 3-5 lines of dialogue written from the first person perspective. Each line must be separated with a \n character.
+
+Use the Additional Context to make the dialogue relevant to the scene. The character's dialogue must cause dramatic tension which will be resolved by the learner taking the tutorial. The goal of the dialogue is to frame the kind of situation in which the skill taught in the tutorial would be useful to have learned.
+
+# Additional Context
+Character:
+{character_name}, {job_title} at {company_name}, {company_description}
+
+Tutorial Name: 
+{title}
+
+Skill Name: 
+{skill_name}
+
+Video Transcript Summary:
+{video_transcript_summary}
+
+# End of Additional Context
+---
+
+Example Valid Responses:
+# 1. GOOLYBIB OFFICES – WEBSITE PLANNING MEETING
+Your team has a number of test ideas you want to run, but you don’t have enough time, traffic, or resources to run them all. You need some framework or way of designing the experiment so as to get results quickly, without missing a winning combination.
+Gustav Gieger at GoolyBib:
+Have you heard of orthogonal arrays?
+It’s something I learned about in my MBA. From this guy called Taguchi. It’s a way of designing experiments so that you can get results quickly, but without leaving a potential winner on the table.
+They work by allowing you to test a variety of different hypotheses at the same time. That way, you can find out which ones are most likely to be true quickly, and then focus on those.
+Take a look at what you can find online, and see if you can figure out how to apply it.
+
+# 2. ULTRA HQ EDITORIAL MEETING
+You want to produce longer form stories with AI, but you find you can't fit enough info into the prompt to guide it to reliable results.
+Dushyant Dixit at Ultra:
+It's a tradeoff
+Don't put enough context and the AI hallucinates
+Put too much and you hit the token limit
+There is a paper I read which helps you recursively build a coherent story using reprompting
+Let me dig that out for you...
+
+# 3. VEXNOMICS OFFICE – OPTIMIZATION SPRINT MEETING
+You’re talking about your great results and how you brought down the cost per lead, but your boss walks in and asks how many are qualified. You have no idea: sales haven't been through all the leads yet, and probably won’t get to it for weeks.
+Charlotte Cook at Vexnomics:
+Waiting for sales to update the CRM is a path to madness
+We need our own qualification system
+Let me talk to sales and get an understanding of what historically converted
+Then we’ll use those attributes to build a lead scoring system
+That way we can optimize in near real-time
+
+----
+Your Response:
+{slugline}
+{action}
+{character_name} at {job_title}: 

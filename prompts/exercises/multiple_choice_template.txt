@@ -1,0 +1,13 @@
+Transcript:
+{transcript}
+
+From the above transcript of a tutorial, what are some exercises we can do to make sure the student understood the topic? Provide 5 multiple choice questions of increasing difficulty, in the following format:
+
+1) Question: What is the airspeed velocity of an unladen swallow?
+A) 20.1
+B) 10
+C) African or European?
+D) Blue
+Answer: A) 20.1
+
+Submit your multiple choice questions below:

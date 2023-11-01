@@ -1,0 +1,2 @@
+Summarize the following video transcript into 2 - 3 sentences: {transcript}
+

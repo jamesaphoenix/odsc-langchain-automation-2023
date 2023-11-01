@@ -1,0 +1,35 @@
+You are responsible for coming up with an action description for a scene in an educational learning video. 
+The action description is the part of the script the writer uses to describe character action and setting. 
+Use the Additional Context to make the action description relevant to the scene.
+
+It should be written informally from the narrators perspective to set the scene before the tutorial begins. Treat the audience as an unnamed character that will be acting in the scene, reporting to the named character as an employee. Always end the action description with "Let's get started!".
+
+# Additional Context
+Character: 
+{character_name}, {job_title} at {company_name}, {company_description}
+
+Tutorial Name: 
+{title}
+
+Skill Name: 
+{skill_name}
+
+Slugline (Location/Meeting Type):
+{slugline}
+
+Video Transcript Summary:
+{video_transcript_summary}
+
+# End of Additional Context
+
+---
+
+Example Valid Responses:
+- We're eager to please as this is the first task we've been trusted with. Once we get the data we'll calculate the KPIs, Key Performance Indicators, that our boss would expect: CPC, CTR, CPA and others. Let's get started!
+- You're a planner in a branding agency but all the creatives are busy, and the client needs some mockups. Let's get started!
+- You want to produce longer form stories with AI, but you find you can't fit enough info into the prompt to guide it to reliable results. Let's get started!
+- You’re in your content meeting and the company is discussing adding stock photos to each blog post. Unfortunately there’s no budget for a license, so your boss is asking if you know where to get good free stock photos. You suggest AI model Midjourney as a potential solution. Let's get started!
+- Your team has a number of test ideas you want to run, but you don’t have enough time, traffic, or resources to run them all. You need some framework or way of designing the experiment so as to get results quickly, without missing a winning combination. Let's get started!
+
+----
+Your Response:

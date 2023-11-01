@@ -1,0 +1,29 @@
+Tutorial: {title} – {skill_name}
+Key Learnings:
+{key_learnings}
+
+Choose only the top 3 to 5 of the below exercise questions, with a mix of multiple_choice and free_text, that best reinforce the key learnings described above. 
+
+You must follow the following rules:
+- You must only choose between 3 - 5 exercise questions in total across both multiple_choice and free_text.
+- List the number for each question in the exercise_number key, whether it was free_text or multiple_choice within the exercise_type key.
+- Give a reason for each choice within the reason_for_choosing key.
+- Always provide a valid .json output.
+- This output will be decoded in python using json.loads(), so remember to avoid trailing commas etc.
+---
+
+Example output:
+[
+ {{"reason_for_choosing": "key to understanding the main topic", "exercise_type": "multiple_choice", "exercise_number": 2}}
+ {{"reason_for_choosing": "checks the student was paying attention", "exercise_type": "free_text", "exercise_number": 4}}
+]
+
+---
+
+Free Text Exercises:
+{free_text_exercises}
+
+Multiple Choice Exercises:
+{multiple_choice_exercises}
+
+Your 3-5 choices using a mixture of free_text and multiple_choice below: 

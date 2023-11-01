@@ -1,0 +1,4 @@
+Transcript:
+{transcript}
+
+Please summarize the key learnings from the above tutorial transcript as a paragraph:
