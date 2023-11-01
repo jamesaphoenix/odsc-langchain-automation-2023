@@ -17,7 +17,7 @@ def upload_image_to_strapi(image_filepath: str, image_name, API_TOKEN: str) -> s
         )
     }
     response = requests.post(
-        "https://cms.vexpower.com/api/upload",
+        "https://CMS-BASE-URL/api/upload",
         files=files,
         headers={"Authorization": f"Bearer {API_TOKEN}"},
     )
@@ -28,7 +28,7 @@ def upload_image_to_strapi(image_filepath: str, image_name, API_TOKEN: str) -> s
 
 def create_skill(skill: Skill, headers):
     resp = requests.post(
-        "https://cms.vexpower.com/api/skills", json={"data": skill}, headers=headers
+        "https://CMS-BASE-URL/api/skills", json={"data": skill}, headers=headers
     )
     print(resp.json())
     return resp.json()["data"]["id"]
@@ -72,7 +72,7 @@ def publish_simulator_as_draft(payload: dict, headers: dict) -> int:
     draft_payload = {**payload, "publishedAt": None}
 
     response = requests.post(
-        f"https://cms.vexpower.com/api/sims?populate=*",
+        f"https://CMS-BASE-URL/api/sims?populate=*",
         json={"data": draft_payload},
         headers=headers,
     ).json()

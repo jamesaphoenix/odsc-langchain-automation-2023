@@ -55,7 +55,7 @@ llm = ChatOpenAI(temperature=0.7)
 better_llm = ChatOpenAI(model='gpt-4', temperature=0.7)
 
 API_TOKEN: str = os.getenv("API_TOKEN")
-BASE_URL = "https://cms.vexpower.com"
+BASE_URL = "https://CMS-BASE-URL.com"
 headers = {"Content-Type": "application/json", "Authorization": f"Bearer {API_TOKEN}"}
 
 # The email address of the target service account you want to impersonate
@@ -168,7 +168,7 @@ def get_characters():
         "Content-Type": "application/json",
         "Authorization": f"Bearer {API_TOKEN}",
     }
-    url = "https://cms.vexpower.com/api/characters"
+    url = "https://CMS-BASE-URL/api/characters"
     response = requests.get(url, headers=headers)
     characters = CharacterList.parse_obj({"characters": response.json()["data"]})
     # character_names = [char.attributes.Name for char in characters.characters]
