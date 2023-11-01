@@ -2,7 +2,7 @@ import google.auth
 from google.auth import impersonated_credentials
 from google.auth.transport.requests import Request
 import json
-from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
 from langchain.prompts import (
     PromptTemplate,
 )
@@ -51,8 +51,8 @@ os.environ["LANGCHAIN_PROJECT"] = f"HIDDEN_PROJECT"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 
-llm = OpenAI(temperature=0.7, max_tokens="500")  # type: ignore
-better_llm = OpenAI(temperature=0.7, max_tokens="500", best_of=3)  # type: ignore
+llm = ChatOpenAI(temperature=0.7)
+better_llm = ChatOpenAI(model='gpt-4', temperature=0.7)
 
 API_TOKEN: str = os.getenv("API_TOKEN")
 BASE_URL = "https://cms.vexpower.com"

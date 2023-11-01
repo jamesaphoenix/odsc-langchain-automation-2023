@@ -1,4 +1,4 @@
-from scripts.custom_types import Author, AuthorLogoImages, CharacterList, Character
+from custom_types import Author, AuthorLogoImages, CharacterList, Character
 from google.cloud import storage
 import json
 import re

@@ -1,6 +1,5 @@
-from scripts.custom_types import Brief, Dialogue, Skill
+from custom_types import Brief, Dialogue, Skill
 import requests
-
 
 def upload_image_to_strapi(image_filepath: str, image_name, API_TOKEN: str) -> str:
     with open(image_filepath, "rb") as f:
